@@ -9,6 +9,10 @@
     pkgs.gh
     pkgs.apt
     pkgs.sudo
+    pkgs.libglvnd
+    pkgs.glib  # Add glib package
+
+
   ];
   # Sets environment variables in the workspace
   env = {};
