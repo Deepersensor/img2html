@@ -7,6 +7,8 @@
   packages = [
     pkgs.python3
     pkgs.gh
+    pkgs.apt
+    pkgs.sudo
   ];
   # Sets environment variables in the workspace
   env = {};
